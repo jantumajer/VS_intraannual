@@ -16,7 +16,7 @@
 library(readxl)
 
 DailyGr <- read.table("e:/Xylo_Model/MODEL/FINAL result/krk rate 1961 - 2017.dat", header = T) # Output of VS on daily scale (rate)
-AnnualGr <- read.table("e:/Xylo_Model/MODEL/FINAL result/krk 1961 - 2017.dat", header = T) # Output of VS on annual scale
+AnnualGr <- read.table("e:/Xylo_Model/MODEL/FINAL result/krk 1961 - 2017.dat", header = T, skip = 1) # Output of VS on annual scale
 
 ################################################
 ### Variable indicating presence/absence of cambial activity (from BG-EG span)
